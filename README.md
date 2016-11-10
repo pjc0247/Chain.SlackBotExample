@@ -1,5 +1,5 @@
 # Chain.SlackBotExample
-SlackBotExample w/ Chain
+SlackBotExample
 
 ```cs
 Config.Set("slack.team", "rinirinihino");
