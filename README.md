@@ -4,7 +4,8 @@ SlackBotExample w/ Chain
 ```cs
 Config.Set("slack.team", "rinirinihino");
 Config.Set("slack.access_token", "ACCESS_TOKEN");
-
+```
+```cs
 var slackSource = C.EventSource<SlackMessage>();
  
 // 안녕로봇
