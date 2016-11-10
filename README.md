@@ -17,7 +17,7 @@ slackSource
 slackSource
   .Filter<MessageRegex>("^!Random$")
   .Task<SendSlackMessage>(
-      C.Rstr("random number -> {0}", () => {
+      C.Rstr("random number -> {0}", _ => {
         return (new Random()).Next();
       });
 ```
